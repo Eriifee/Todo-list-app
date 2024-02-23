@@ -53,7 +53,9 @@ function add(){
            
             if(checkbox.checked){
                 textNode.classList.add("strike-through")
-            } 
+            } else {
+              textNode.classList.remove("strike-through")
+            }
            })
         
          
