@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+
+.input-value {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 8px;
+    text-align: start;
+}
+
+.todo-list {
+    width: 500px;
+    margin: 0 auto;
+}
+.list-item {
+        display: flex;
+        align-items: center;
+        margin:  20px auto;   
+} 
+
+ .list-item input[type="checkbox"]
+ {
+    margin-right: 10px;
+    cursor: pointer;
+} 
+
+.list-item .delete-icon {
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.list-item span {
+    text-align: start;
+    flex-grow: 1;
+}
+
+
+.input-value::placeholder {
+    text-align: start;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
